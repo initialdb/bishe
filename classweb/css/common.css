@@ -1,0 +1,204 @@
+@charset "utf-8";
+body{
+    font-family:"Microsoft Yahei","Heveltica Neue",Arial, Helvetica, sans-serif;
+    background: #f3f3f3; 
+}
+a{
+    color: inherit;
+}
+a:focus,a:hover{
+    color: #d49637;
+    text-decoration: none;
+}
+em{
+    font-style: normal;
+}
+.no-ml{
+	margin-left: 0 !important;
+}
+.no-bb{
+	border-bottom:none !important;
+}
+.form-control{
+	-webkit-box-shadow:none;
+	-ms-box-shadow:none;
+	-moz-box-shadow:none;
+	-o-box-shadow:none;
+	box-shadow: none;
+	border-color: #dad7d0;
+	background: #dad7d0;
+}
+.form-control:focus{
+	border-color: #dad7d0;
+	-webkit-box-shadow:none;
+	-ms-box-shadow:none;
+	-moz-box-shadow:none;
+	-o-box-shadow:none;
+	box-shadow: none;
+}
+.cont{
+	width: 1200px;
+	margin:0 auto;
+}
+
+/* 左导航栏start */
+.slide-menu{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 260px;
+    height: 100%;
+    background: #141519;
+    z-index: 999;
+}
+.slide-menu .slide-logo{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+.slide-menu ul li.menu-item{
+    position: relative;
+    margin-top: 40px;
+    height: 50px;
+    padding-left: 88px;
+    line-height: 50px;
+    color: #666;
+    font-size: 16px;
+}
+.slide-menu ul li.menu-item:hover{
+    background: #1d1e21;
+}
+.slide-menu ul li.menu-item .icon-menu-right{
+    width: 21px;
+    height: 21px;
+    margin-right: 16px;
+    margin-top: 13px;
+    font-size: 16px;
+    background: url(/classweb/img/icon-right.png) no-repeat;
+}
+.slide-menu ul li.menu-item:hover .icon-menu-right{
+    background: url(/classweb/img/icon-right-hover.png) no-repeat;
+}
+.slide-menu ul li.menu-item.active .icon-menu-right{
+    background:  url(/classweb/img/icon-right-hover.png) no-repeat;
+}
+.slide-menu ul li a{
+    display: block;
+    color: #666;
+}
+.slide-menu ul li:hover > a{
+    color: #fff;
+    text-decoration: none;
+}
+.slide-menu ul li.active > a{
+    color: #fff;
+}
+.slide-menu ul li.menu-item.item0{
+    background: url(/classweb/img/slide-menu0.png) no-repeat;
+    background-position: 58px 14px;
+}
+.slide-menu ul li.menu-item.item0:hover,
+.slide-menu ul li.menu-item.item0.active{
+    background: url(/classweb/img/slide-menu0-hover.png) no-repeat;
+    background-position: 58px 14px;
+    background-color: #1d1e21;
+}
+.slide-menu ul li.menu-item.item1{
+    background: url(/classweb/img/slide-menu1.png) no-repeat;
+    background-position: 58px 14px;
+}
+.slide-menu ul li.menu-item.item1:hover,
+.slide-menu ul li.menu-item.item1.active{
+    background: url(/classweb/img/slide-menu1-hover.png) no-repeat;
+    background-position: 58px 14px;
+    background-color: #1d1e21;
+}
+.slide-menu ul li.menu-item.item2{
+    background: url(/classweb/img/slide-menu2.png) no-repeat;
+    background-position: 58px 14px;
+}
+.slide-menu ul li.menu-item.item2:hover,
+.slide-menu ul li.menu-item.item2.active{
+    background: url(/classweb/img/slide-menu2-hover.png) no-repeat;
+    background-position: 58px 14px;
+    background-color: #1d1e21;
+}
+.slide-menu ul li.menu-item.item3{
+    background: url(/classweb/img/slide-menu3.png) no-repeat;
+    background-position: 58px 14px;
+}
+.slide-menu ul li.menu-item.item3:hover,
+.slide-menu ul li.menu-item.item3.active{
+    background: url(/classweb/img/slide-menu3-hover.png) no-repeat;
+    background-position: 58px 14px;
+    background-color: #1d1e21;
+}
+.slide-menu ul li .sub-menu{
+    display: none;
+    position: absolute;
+    left: 260px;
+    top: 0;
+    width: 170px;
+    text-align: center;
+    background: #1d1e21;
+}
+.slide-menu ul li:hover .sub-menu{
+    display: block;
+}
+.slide-menu ul li .sub-menu li:hover{
+    color: #fff;
+}
+/* 左导航结束    */
+
+/* 右侧内容顶部 */
+.top{
+	height: 50px;
+	padding:9px 50px 10px 50px;
+	margin-left: 260px;
+	line-height: 30px;
+	border-bottom: 1px solid #dad7d0;
+}
+/* 顶部构件start */
+.search-box{
+    position: relative;
+    margin-left: 20px;
+    margin-top: 2px;
+}
+.search-box input{
+    width: 220px;
+    height: 30px;
+    padding: 4px 30px 6px 10px;
+    color: #333;
+    line-height: 20px;
+}
+.search-box input:focus{
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.search-box .glyphicon-search:hover{
+    color: #333;
+}
+.search-box .drop-menu{
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 30px;
+    width: 100%;
+    min-height: 210px;
+    background: #fff;
+    overflow: auto;
+    font-size: 12px;
+    z-index: 10px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.search-box .drop-menu li{
+    position: relative;
+    height: 30px;
+    padding: 0 10px;
+    line-height: 30px;
+}
+.search-box .drop-menu li:hover{
+    background: #e5e5e5;
+}
+/* 顶部构件end   */
