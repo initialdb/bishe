@@ -201,4 +201,29 @@ em{
 .search-box .drop-menu li:hover{
     background: #e5e5e5;
 }
+
+/* 顶部登录start */
+.top .btn-login{
+    height: 30px;
+    line-height: 28px;
+    padding: 0 10px;
+    color: #ffffff;
+    background: #d4171a;
+}
+.top .divider{
+    margin: 0 15px;
+}
+.top .merry-go-round{
+    width: 420px;
+    height: 30px;
+    padding-left: 20px;
+    background: url(/classweb/img/icon-notice.png) left center no-repeat;
+}
+.top .merry-go-round .text{
+    width: 100%;
+    overflow: hidden;
+}
+/* 顶部登录end */
+
+
 /* 顶部构件end   */
