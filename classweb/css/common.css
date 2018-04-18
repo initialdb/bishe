@@ -175,6 +175,13 @@ em{
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
 }
+.search-box .glyphicon-search{
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    color: #999999;
+    cursor: pointer;
+}
 .search-box .glyphicon-search:hover{
     color: #333;
 }
@@ -210,7 +217,7 @@ em{
     color: #ffffff;
     background: #d4171a;
 }
-.top .divider{
+.top .divide{
     margin: 0 15px;
 }
 .top .merry-go-round{
@@ -229,9 +236,6 @@ em{
 
 /* content start */
 
-/* banner start */
 
-
-/* banner end */
 
 /* content end */
