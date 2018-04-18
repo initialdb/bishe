@@ -20,7 +20,7 @@ body{
 	height: 100%;
 	padding-left: 170px;
 }
-.banner-wrap .banner-list li .p0{
+/* .banner-wrap .banner-list li .p0{
 	padding-top: 310px;
 }
 .banner-wrap .banner-list li .p0 span{
@@ -39,7 +39,7 @@ body{
 .banner-wrap .banner-list li .p2{
 	color:#ccc;
 	font-size: 22px;
-}
+} */
 .banner-nav{
 	position: absolute;
 	right: 60px;
