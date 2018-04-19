@@ -7,11 +7,12 @@
         <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
         <link rel="stylesheet" type="text/css" href="css/common.css">
         <link rel="stylesheet" type="text/css" href="css/index.css">
+        <link rel="shortcut icon" href="img/favorite.png" type="image/x-icon">
     </head>
     <body>
         <!-- 左侧导航栏 -->
         <div class="slide-menu">
-            <div class="slide-logo"><a href="#"><img src="/classweb/img/logo.svg" width="124px" height="62px"></a></div>
+            <div class="slide-logo"><a href="#"><img src="img/logo.svg" width="124px" height="62px"></a></div>
             <ul class="list-unstyled">
                 <li class="menu-item item0 active"><a href="#">首页</a></li>
                 <!-- menu-item item0 active -->
@@ -63,8 +64,12 @@
                 </ul>
             </div>
             <div class="pull-right">
-                <a href="login.html" class="btn btn-login">登录</a><span class="hidden"><span class="">小明</span><span class="divider">|</span>
-            <a href="login.html">退出</a></span>
+                <a href="login.html" class="btn btn-login">登录</a>
+                    <span class="hidden">
+                        <span class="">小明</span>
+                        <span class="divide">|</span>
+                        <a href="login.html">退出</a>
+                    </span>
             </div>
         </div>
         <!-- 顶部构件end -->
@@ -72,22 +77,194 @@
         <!-- content start -->
         <div class="content">
             <!-- banner start -->
-                <div class="banner-wrap">
+                <div class="banner-    ">
                     <ul class="banner-list list-unstyled">
-                        <li style="background-image:url(/classweb/img/banner1.jpg) center no-repeat;display: block;"></li>
-                        <li style="background:url(/classweb/img/banner2.jpg) center no-repeat;"></li>
-                        <li style="background:url(/classweb/img/banner3.jpg) center no-repeat;"></li>
-                        <li style="background:url(/classweb/img/banner4.jpg) center no-repeat;"></li>
-                        <li style="background-image:url(img/banner5.jpg) center no-repeat;"></li>
+                        <li style="background:url(img/banner1.jpg) center no-repeat;display: block;"></li>
+                        <li style="background:url(img/banner2.jpg) center no-repeat;"></li>
+                        <li style="background:url(img/banner3.jpg) center no-repeat;"></li>
+                        <li style="background:url(img/banner4.jpg) center no-repeat;"></li>
+                        <li style="background:url(img/banner5.jpg) center no-repeat;"></li>
+                    </ul>
+                    <ul class="banner-nav list-unstyled">
+                        <li style="background:url(img/banner1.jpg) no-repeat;background-size: cover;" class="active"></li>
+                        <li style="background:url(img/banner2.jpg) no-repeat;background-size: cover;"></li>
+                        <li style="background:url(img/banner3.jpg) no-repeat;background-size: cover;"></li>
+                        <li style="background:url(img/banner4.jpg) no-repeat;background-size: cover;"></li>
+                        <li style="background:url(img/banner5.jpg) no-repeat;background-size: cover;"></li>
                     </ul>
                 </div>
             <!-- banner end -->
+            
+<!-- list start -->
+<div class="list-warp">
+    <div class="list-content">
+        <div class="list-header clearfix header0">
+            <a href="video-list.html" class="pull-right">更多></a>
+        </div>
+        <ul class="list-unstyled clearfix">
+            <!--第一个视频 satrt-->
+            <li>
+                <div class="img-box">
+                    <a href="#">
+                        <img src="img/1.jpg"/>
+                        <div class="recommend">推荐</div>
+                        <div class="time">02:29</div>
+                        <div class="list-cover"></div>
+                    </a>
+                </div>
+                <p><a href="#">视频名称</a></p>
+                <div class="list-desc">
+                    <div class="pull-right"><span class="pull-right">12.3W</span><i class="icon-play-small pull-right"></i></div>
+                    讲师名字
+                </div>
+            </li>
+            <!--第一个视频 end-->
+
+            <!--第2个视频 satrt-->
+            <li>
+                <div class="img-box">
+                    <a href="#">
+                        <img src="img/2.jpg"/>
+                        <div class="recommend">热门</div>
+                        <div class="time">02:29</div>
+                        <div class="list-cover"></div>
+                    </a>
+                </div>
+                <p><a href="#">视频名称</a></p>
+                <div class="list-desc">
+                    <div class="pull-right"><span class="pull-right">21.7W</span><i class="icon-play-small pull-right"></i></div>
+                    讲师名字
+                </div>
+            </li>
+            <!--第2个视频 end-->
+
+            <!--第3个视频 satrt-->
+            <li>
+                <div class="img-box">
+                    <a href="#">
+                        <img src="img/3.jpg"/>
+                        <div class="new">新课</div>
+                        <div class="time">02:29</div>
+                        <div class="list-cover"></div>
+                    </a>
+                </div>
+                <p><a href="#">视频名称</a></p>
+                <div class="list-desc">
+                    <div class="pull-right"><span class="pull-right">5.3W</span><i class="icon-play-small pull-right"></i></div>
+                    讲师名字
+                </div>
+            </li>
+            <!--第3个视频 end-->
+
+            <!--第4个视频 satrt-->
+            <li>
+                <div class="img-box">
+                    <a href="#">
+                        <img src="img/3.jpg"/>
+                        <div class="recommend">经典</div>
+                        <div class="time">02:29</div>
+                        <div class="list-cover"></div>
+                    </a>
+                </div>
+                <p><a href="#">视频名称</a></p>
+                <div class="list-desc">
+                    <div class="pull-right"><span class="pull-right">4.3W</span><i class="icon-play-small pull-right"></i></div>
+                    讲师名字
+                </div>
+            </li>
+            <!--第4个视频 end-->
+        </ul>
+        <div class="page">
+            <div class="page-wrap">
+                <a href="#" class="prev">上一页</a>
+                <a href="#" >1</a>
+                <a href="#" >2</a>
+                <a href="#" class="current">3</a>
+                <a href="#" >4</a>
+                <a href="#" >5</a>
+                <a href="#" >···</a>
+                <a href="#" >21</a>
+                <a href="#" class="next">下一页</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!-- list end -->
+            
         </div>
         
-
         <!-- content end -->
-        
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/jquery.min.js"></script>
+        <div class="copyright footer">
+            <p>版权所有</p>
+            <p>巴拉拉能量</p>
+        </div>
+        <div class="page-cover" id="password-dialog">
+            <div class="dialog-wrap">
+                <h3>设置密码</h3>
+                <input type="password" placeholder="请输入密码" class="form-control">
+                <input type="password" placeholder="请输入密码" class="form-control">
+                <button type="submit" class="btn btn-block" id="password-btn">确定</button>
+            </div>
+        </div>
+        <!-- <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.min.js"></script> -->
+        <!-- 新 Bootstrap 核心 CSS 文件 -->
+        <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+        <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+        <script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+        <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+        <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="js/common.js"></script>
+        <script>
+        // banner start
+//banner响应鼠标滑动切换
+$('.banner-nav').on('mouseover','li',function(){
+    clearInterval(clear);
+    var index=$(this).index();
+    $('.banner-nav li').removeClass('active');
+    $(this).addClass('active');
+    $('.banner-list li').hide().eq(index).fadeIn();
+});
+//banner自动切换
+    var clear = setInterval(function(){
+        var index=$('.banner-nav li.active').index();
+        // console.log(index);
+        index++;
+        if(index==5){
+            index=0;
+        }
+        $('.banner-nav li').removeClass('active');
+        $('.banner-nav li').eq(index).addClass('active');
+        $('.banner-list li').hide().eq(index).fadeIn();
+    },3000);
+
+    $('.password-btn').on('click',function () {
+        $('#password-dialog').hide();
+    });
+    // 搜索框
+    if(!('placehoder' in document.createElement('input'))){
+        $('input[liacehoder],textarea[placehoder]').each(function () {
+           var that = $(this),text=that.attr('placehoder');
+           if(that.val()===""){
+                that.val(text).addClass('placehoder');
+           }
+           that.focus(function () {
+               if(that.val===text){
+                   that.val("").removeClass('placehoder');
+               }
+           }).blur(function(){
+               if(that.val===text){
+                   that.val(text).addClass('placehoder');
+               }
+           }).closest('form').submit(function () {
+               if(that.val()===text){
+                   that.val('');
+               }
+           });
+        });
+    }
+    </script>
     </body>
 </html>
