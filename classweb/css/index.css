@@ -45,4 +45,7 @@ body{
 		margin-left:260px;
 	}
 }
+.list-content ul li{
+	margin-top:10px;
+}
 /* banner end */

@@ -2,6 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ca23585-31be-4974-a49d-bdafca668dbd" name="Default" comment="">
+<<<<<<< HEAD
+=======
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classweb/img/favorite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classweb/js/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classweb/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classweb/video-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+>>>>>>> dev
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/classweb/css/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/classweb/css/common.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/classweb/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/classweb/css/index.css" afterDir="false" />
@@ -21,6 +31,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< HEAD
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/classweb/index.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -29,12 +40,63 @@
               <folding>
                 <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+=======
+      <file leaf-file-name="common.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/classweb/css/common.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2087">
+              <caret line="245" column="2" lean-forward="true" selection-start-line="245" selection-start-column="2" selection-end-line="245" selection-end-column="2" />
+>>>>>>> dev
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
+    </leaf>
+  </component>
+=======
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/classweb/css/index.css">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/classweb/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="16" selection-start-column="16" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="video-list.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/classweb/video-list.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/classweb/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="365">
+              <caret line="104" column="100" selection-start-line="104" selection-start-column="100" selection-end-line="104" selection-end-column="100" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+>>>>>>> dev
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -42,6 +104,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/classweb/index/index.html" />
+<<<<<<< HEAD
+=======
+        <option value="$PROJECT_DIR$/classweb/videl-list.html" />
+        <option value="$PROJECT_DIR$/classweb/css/common.css" />
+>>>>>>> dev
         <option value="$PROJECT_DIR$/classweb/index.html" />
       </list>
     </option>
@@ -52,13 +119,24 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+<<<<<<< HEAD
   <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
+=======
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-1088" />
+    <option name="y" value="-8" />
+    <option name="width" value="1096" />
+    <option name="height" value="1896" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+>>>>>>> dev
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Default" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -68,26 +146,77 @@
             <path>
               <item name="classweb0" type="b2602c69:ProjectViewProjectNode" />
               <item name="classweb0" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+=======
             </path>
             <path>
               <item name="classweb0" type="b2602c69:ProjectViewProjectNode" />
               <item name="classweb0" type="462c0819:PsiDirectoryNode" />
               <item name="classweb" type="462c0819:PsiDirectoryNode" />
+>>>>>>> dev
             </path>
             <path>
               <item name="classweb0" type="b2602c69:ProjectViewProjectNode" />
               <item name="classweb0" type="462c0819:PsiDirectoryNode" />
               <item name="classweb" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+<<<<<<< HEAD
+              <item name="classweb0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="classweb0" type="462c0819:PsiDirectoryNode" />
+              <item name="classweb" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="classweb0" type="cbb8eebc:String" user="classweb0" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="classweb0" type="cbb8eebc:String" user="classweb0" />
+              <item name="classweb" type="cbb8eebc:String" user="classweb" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="classweb0" type="cbb8eebc:String" user="classweb0" />
+              <item name="classweb" type="cbb8eebc:String" user="classweb" />
+              <item name="css" type="cbb8eebc:String" user="css" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <subPane subId="Default">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="classweb0" type="cbb8eebc:String" user="classweb0" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="classweb0" type="cbb8eebc:String" user="classweb0" />
+              <item name="classweb" type="cbb8eebc:String" user="classweb" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="classweb0" type="cbb8eebc:String" user="classweb0" />
+              <item name="classweb" type="cbb8eebc:String" user="classweb" />
+              <item name="css" type="cbb8eebc:String" user="css" />
+>>>>>>> dev
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="E:/project/fock/e-learning-web-master" />
     <property name="node.js.detected.package.prettier" value="true" />
@@ -120,10 +249,16 @@
       <updated>1523936195917</updated>
       <workItem from="1523936197148" duration="85000" />
       <workItem from="1524034549491" duration="156000" />
+<<<<<<< HEAD
+=======
+      <workItem from="1524100754408" duration="54000" />
+      <workItem from="1524101452196" duration="810000" />
+>>>>>>> dev
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="241000" />
   </component>
   <component name="ToolWindowManager">
@@ -131,6 +266,15 @@
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.50104386" />
+=======
+    <option name="totallyTimeSpent" value="5962000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1088" y="-8" width="1096" height="1896" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.38796297" />
+>>>>>>> dev
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -156,6 +300,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/classweb/index/index.html" />
     <entry file="file://$PROJECT_DIR$/classweb/img/banner2.jpg">
       <provider selected="true" editor-type-id="images" />
@@ -167,8 +312,68 @@
           <folding>
             <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+=======
+    <entry file="file://$PROJECT_DIR$/classweb/css/common.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5502">
+          <caret line="262" column="67" selection-start-line="262" selection-start-column="67" selection-end-line="262" selection-end-column="67" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classweb/css/common.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5502">
+          <caret line="262" column="67" lean-forward="true" selection-start-line="262" selection-start-column="67" selection-end-line="262" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classweb/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1880">
+          <caret line="94" column="28" lean-forward="true" selection-start-line="94" selection-start-column="28" selection-end-line="94" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classweb/index/index.html" />
+    <entry file="file://$PROJECT_DIR$/classweb/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2160">
+          <caret line="94" column="28" selection-start-line="94" selection-start-column="28" selection-end-line="94" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classweb/index/index.html" />
+    <entry file="file://$PROJECT_DIR$/classweb/video-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classweb/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classweb/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="104" column="100" selection-start-line="104" selection-start-column="100" selection-end-line="104" selection-end-column="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classweb/css/common.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2087">
+          <caret line="245" column="2" lean-forward="true" selection-start-line="245" selection-start-column="2" selection-end-line="245" selection-end-column="2" />
+>>>>>>> dev
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classweb/css/index.css">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
